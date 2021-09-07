@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+.main{
+  margin-top: 70px;
+  height: auto;
+  width: 100%;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-heading img{
+  width: 100%;
+  opacity: 0.5;
+}
+
+.img-heading {
+  background-color: hsl(277, 64%, 61%);
+}
+
+h1,h2 {
+  font-family: "Inter" , sans-serif;
+}
+
+.content p{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card {
+  width: 450px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  margin: 50px 40px;
+  color: hsl(0, 0%, 100%);
+  overflow: hidden;
+}
+
+.content {
+  padding: 25px 0;
+}
+
+h1 {
+  margin: 30px 20px 10px 20px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.75);
+  opacity: 0.5;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 10px 20px;
+  font-size: 15px;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%, 100%);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.com {
+  margin-top: 25px;
+}
+
+.temp {
+  margin-top: 25px;
+}
+
+.que {
+  margin-top: 25px;
+}
+
+.attri {
+  text-align: center;
+  color: hsl(0, 0%, 100%, 100%);
+  font-family: "Inter" , sans-serif;
+}
+
+.attri a{
+  color: blueviolet;
+  text-decoration: none;
+  font-family: "Inter" , sans-serif;
+}
+
+.attri a:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .img-heading {
+    float: right;
+    width: 50%;
+    height: 390px;
+  }
+
+  .header {
+    padding-top: 25px;
+    margin-left: 10px;
+    margin-right: 55%;
+  }
+
+  .header p {
+    padding-top: 30px;
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  .content {
+    width: 50%;
+    padding: 30px;
+  }
+
+  .stats {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    width: auto;
+  }
+
+  .attri {
+    bottom: 10%;
+  }
+}
